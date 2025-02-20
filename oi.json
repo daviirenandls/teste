@@ -1,0 +1,27 @@
+[
+    {
+        "id": "d1485434bf0b3622",
+        "type": "inject",
+        "z": "bc77612725d869c4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"nome\":\"Temperatura\",\"valor\":25.5}",
+        "payloadType": "json",
+        "x": 90,
+        "y": 360,
+        "wires": [
+            [
+                "cd93608cf91f6796"
+            ]
+        ]
+    }
+]
